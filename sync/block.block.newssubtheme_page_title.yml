@@ -1,0 +1,20 @@
+uuid: 669531f6-da99-40cc-ba6e-c9e30e85fce6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: i-CLgBVy5uUkIVpNQUZSER5tW-sYfBuIdGcO1OtkAtk
+id: newssubtheme_page_title
+theme: newssubtheme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

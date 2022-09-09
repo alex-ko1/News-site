@@ -1,0 +1,22 @@
+uuid: 8ea40657-f67d-4026-bdbb-494d537fedf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: l6kbHRjlJy6ElIYks9HHrQJwQAM__lmVlfGa3GKO7lk
+id: newssubtheme_content
+theme: newssubtheme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

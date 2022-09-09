@@ -1,0 +1,27 @@
+uuid: cda34126-f536-40de-9e4d-be84ea1aea6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: whgG1UYfcLV7W4X92NOpv8tGN1z35fG2VYgNzPfoPXY
+id: newssubtheme_main_navigation
+theme: newssubtheme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

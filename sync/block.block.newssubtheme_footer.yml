@@ -1,0 +1,27 @@
+uuid: 4960bb28-5d10-4a24-8b2a-22e92d773e6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: 4pzyOfT8BZxFH8VgH08WBhH7ga1NI_BuOIoJURR7J0s
+id: newssubtheme_footer
+theme: newssubtheme
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

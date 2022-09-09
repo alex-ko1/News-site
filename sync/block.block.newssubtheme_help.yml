@@ -1,0 +1,22 @@
+uuid: 5c431585-4f90-443b-8204-a8571b235ecc
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: ZO4CpJ6e4VQZE-Eo7e6Nk8x0qYIt2ItMG8_IAvsJELE
+id: newssubtheme_help
+theme: newssubtheme
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

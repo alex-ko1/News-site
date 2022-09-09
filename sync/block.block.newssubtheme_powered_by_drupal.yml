@@ -1,0 +1,22 @@
+uuid: 0f9e5754-e14b-47d6-b4cc-c13777b62f4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: _lW--MV1Q8DQgYdo8z-J4Bvhz5PdzjqVxcOhTSLiJLc
+id: newssubtheme_powered_by_drupal
+theme: newssubtheme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

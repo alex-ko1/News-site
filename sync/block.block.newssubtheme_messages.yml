@@ -1,0 +1,22 @@
+uuid: 01f45206-6556-4578-8e95-f43cd590c952
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: fFt8VIdttkAmVronwSIP5fvGgtwTUQ7avvEeTpqcRKk
+id: newssubtheme_messages
+theme: newssubtheme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

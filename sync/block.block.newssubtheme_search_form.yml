@@ -1,0 +1,23 @@
+uuid: 980c27be-81bb-4f44-95a4-9e11d3e03d7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: mJbqWtr4gtlNzvQ7mffxkpg16V7kRdM3tyNFQ5OlP-Y
+id: newssubtheme_search_form
+theme: newssubtheme
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: cf97687a-27d7-45d6-91fa-43a04be89d49
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: pAVvlVLXKzcqHeCqZWjD8oKVS0MQEFS0Xi6qCneCWW8
+id: newssubtheme_breadcrumbs
+theme: newssubtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

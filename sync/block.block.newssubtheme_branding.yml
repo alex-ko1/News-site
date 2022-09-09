@@ -1,0 +1,25 @@
+uuid: d765a54e-addc-4567-94ed-5385f206bf9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: 49_9FdNUqEA-FAPPaW97TbPWjvQ5DMdrlnxMEsL9v7E
+id: newssubtheme_branding
+theme: newssubtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

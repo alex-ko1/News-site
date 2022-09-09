@@ -1,0 +1,22 @@
+uuid: 352b40ae-c94a-41c7-b2ea-d6b6592194a1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - newssubtheme
+_core:
+  default_config_hash: P74o4YPLUo5eW5sRSVAbQyEhBvvq7AQhjB-KSYUtATY
+id: newssubtheme_local_tasks
+theme: newssubtheme
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
