@@ -1,0 +1,40 @@
+uuid: c07047b5-64fc-4cbf-863e-8a19ca9f66ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_youtube.field_title
+    - field.field.paragraph.gallery_youtube.field_youtubes
+    - paragraphs.paragraphs_type.gallery_youtube
+  module:
+    - text
+    - youtube
+id: paragraph.gallery_youtube.default
+targetEntityType: paragraph
+bundle: gallery_youtube
+mode: default
+content:
+  field_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_youtubes:
+    type: youtube_video
+    label: above
+    settings:
+      youtube_size: 450x315
+      youtube_width: ''
+      youtube_height: ''
+      youtube_autoplay: false
+      youtube_mute: false
+      youtube_loop: false
+      youtube_controls: false
+      youtube_autohide: false
+      youtube_iv_load_policy: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
